@@ -12,6 +12,12 @@ CREATE TABLE genre (
     genre_name VARCHAR(255)
     );
     
+CREATE TABLE country (
+	ID INT(3) AUTO_INCREMENT, PRIMARY KEY (ID),
+    country_name VARCHAR(255),
+    alpha_2_code VARCHAR(4)
+    );
+    
 CREATE TABLE track (
 	ID INT(8) AUTO_INCREMENT, PRIMARY KEY (ID),
     track_name LONGTEXT,
@@ -38,15 +44,23 @@ CREATE TABLE track (
     track_id INT(8),
     genre_id INT(5)
     );
+    
+	CREATE TABLE top_artists_country (
+	ID INT(7) AUTO_INCREMENT, PRIMARY KEY (ID),
+    ranking INT(3),
+    artist_name VARCHAR(255),
+    country_name VARCHAR(255),
+    country_id INT(3),
+    artist_id INT(7)
+    );
 
- -- Create artists table content in JN and push it to the artists table
- -- Create genre table content in JN and push it to the genre table
- -- Export artist table content and genre table content to JN
- -- Add artist and genre PK to tracks data 
- -- Create tracks table content in JN and push it to the tracks table
- -- Create tracks_genre table content in JN and push it to the tracks_genre table
+-- Execute JN: CSVs_cleaning_and_import
+-- Execute JN: Merge LastFM Data
+
 
 -- Set relations
 ALTER TABLE `track` ADD FOREIGN KEY (`artist_id`) REFERENCES `artist`(`ID`);
 ALTER TABLE `track_genre` ADD FOREIGN KEY (`track_id`) REFERENCES `track`(`ID`);
 ALTER TABLE `track_genre` ADD FOREIGN KEY (`genre_id`) REFERENCES `genre`(`ID`);
+ALTER TABLE `top_artists_country` ADD FOREIGN KEY (`country_id`) REFERENCES `country`(`ID`);
+ALTER TABLE `top_artists_country` ADD FOREIGN KEY (`artist_id`) REFERENCES `artist`(`ID`);
