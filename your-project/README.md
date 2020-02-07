@@ -61,6 +61,8 @@ The team dynamic and efficiency allowed us to be more flexible with our approach
 Our repo contains the following:
 - Our paper 'the_country_battle_paper' explaining in depth our approach and conclusions
 - An images folder containing the images used in the paper
+- A datasets folder containing csv extractions from out database
+- A music charts folder containing the top music charts of the three countries
 - This README file which contains links to the necessary sources
 
 
