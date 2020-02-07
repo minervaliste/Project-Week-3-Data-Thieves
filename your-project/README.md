@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# The Country Battle: Who has better taste in music?
+*Minerva Liste, Kevin Forster, & Yazan Masarweh*
 
-*[Your Cohort, Campus & Date]*
+*DAFT Jan 2020 - Barcelona*
 
 ## Content
 - [Project Description](#project-description)
