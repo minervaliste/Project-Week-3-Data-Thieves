@@ -58,8 +58,10 @@ We used a trello baord to split and measure the amount of work that we needed to
 
 The team dynamic and efficiency allowed us to be more flexible with our approach and conclusion.
 
-What does your repository look like? Explain your folder and file structure.
-# TEAM INPUT
+Our repo contains the following:
+- Our paper 'the_country_battle_paper' explaining in depth our approach and conclusions
+- An images folder containing the images used in the paper
+- This README file which contains links to the necessary sources
 
 
 ## Links
