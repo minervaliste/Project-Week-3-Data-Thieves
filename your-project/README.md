@@ -87,6 +87,6 @@ Our repo contains the following:
 ## Links
 Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
 
-[Repository](https://github.com/)  
+[Repository](https://github.com/minervaliste/Project-Week-3-Data-Thieves)  
 [Slides](https://docs.google.com/presentation/d/1vlLHDGbt1QE6uzdMW_RN9ocRO5lnhinCdKUaRJVpNe0/edit#slide=id.g6ea47b3d4e_0_30)  
 [Trello](https://trello.com/b/UVENp2Lm/project3team4)  
