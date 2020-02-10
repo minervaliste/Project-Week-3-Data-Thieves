@@ -43,14 +43,32 @@ We used multiple data sources listed below:
 The above data sources paved the way for us to compile, clean, and transform the necessary data required to build out database.
 
 ## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other?
-
 From the sources mentioned above, we were able to narrow down and create 6 tables that are:
-# MINERVA INPUT
+
+- Tracks: description of the song variables
+- Genre: list of genres
+- Track_genre relationship
+- Artists: list of artists
+- Rankings: top of the charts lists
+- Countries: list of countries
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
-# MINERVA INPUT
+The project was developed following these steps:
+
+- First steps:
+	- Topic selection and key questions
+	- Data first assessment review of available data on APIs and CSV sources 
+
+- Data preparation and first analysis:
+	- Data aquisition (Kaggle, Last.FM)
+	- Database design
+	- Data cleaning and normalization
+	- First insights and review
+
+- Conclusions and data visualization:
+	- Analysis iteration for new questions
+	- Conclusions layout
+	- Plotting on relevant insights + storytelling construction
 
 
 ## Organization
@@ -58,8 +76,10 @@ We used a trello baord to split and measure the amount of work that we needed to
 
 The team dynamic and efficiency allowed us to be more flexible with our approach and conclusion.
 
-What does your repository look like? Explain your folder and file structure.
-# TEAM INPUT
+Our repo contains the following:
+- Our paper 'the_country_battle_paper' explaining in depth our approach and conclusions
+- An images folder containing the images used in the paper
+- This README file which contains links to the necessary sources
 
 
 ## Links

@@ -1,5 +1,5 @@
 -- Create DB
-CREATE DATABASE data_thieves_dummy;
+CREATE DATABASE country_battle;
 
 -- Select the database and create the tables in it
 CREATE TABLE artist (
@@ -48,15 +48,11 @@ CREATE TABLE track (
 	CREATE TABLE top_artists_country (
 	ID INT(7) AUTO_INCREMENT, PRIMARY KEY (ID),
     ranking INT(3),
-    artist_name VARCHAR(255),
-    country_name VARCHAR(255),
     country_id INT(3),
     artist_id INT(7)
     );
 
--- Execute JN: CSVs_cleaning_and_import
--- Execute JN: Merge LastFM Data
-
+-- Execute JN: Clean datasets and export to database.ipynb
 
 -- Set relations
 ALTER TABLE `track` ADD FOREIGN KEY (`artist_id`) REFERENCES `artist`(`ID`);
