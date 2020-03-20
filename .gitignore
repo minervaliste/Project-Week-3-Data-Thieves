@@ -175,4 +175,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Others
+access_db.txt
+
 # End of https://www.gitignore.io/api/macos,python,windows,jupyternotebooks
